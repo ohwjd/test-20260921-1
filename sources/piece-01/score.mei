@@ -54,9 +54,34 @@
       <facsimile xml:id="facsimile-1">
          <surface xml:id="surface-1" n="1" ulx="0" uly="0" lrx="1296" lry="1728">
             <graphic xml:id="graphic-1" target="../img/01.jpg" width="1296" height="1728"/>
+            <zone xml:id="staff-zone-1-1" type="staff" ulx="180" uly="141" lrx="1201" lry="183"/>
+            <zone xml:id="staff-zone-1-2" type="staff" ulx="179" uly="239" lrx="1197" lry="287"/>
+            <zone xml:id="staff-zone-1-3" type="staff" ulx="176" uly="334" lrx="1195" lry="383"/>
+            <zone xml:id="staff-zone-1-4" type="staff" ulx="178" uly="459" lrx="1196" lry="507"/>
+            <zone xml:id="staff-zone-1-5" type="staff" ulx="178" uly="554" lrx="1199" lry="594"/>
+            <zone xml:id="staff-zone-1-6" type="staff" ulx="177" uly="661" lrx="1196" lry="705"/>
+            <zone xml:id="staff-zone-1-7" type="staff" ulx="180" uly="764" lrx="1198" lry="806"/>
+            <zone xml:id="staff-zone-1-8" type="staff" ulx="180" uly="873" lrx="1196" lry="912"/>
+            <zone xml:id="staff-zone-1-9" type="staff" ulx="179" uly="970" lrx="1195" lry="1008"/>
+            <zone xml:id="staff-zone-1-10" type="staff" ulx="176" uly="1119" lrx="1196" lry="1163"/>
+            <zone xml:id="staff-zone-1-11" type="staff" ulx="177" uly="1217" lrx="1197" lry="1263"/>
+            <zone xml:id="staff-zone-1-12" type="staff" ulx="177" uly="1329" lrx="1195" lry="1370"/>
+            <zone xml:id="staff-zone-1-13" type="staff" ulx="178" uly="1434" lrx="1195" lry="1476"/>
+            <zone xml:id="staff-zone-1-14" type="staff" ulx="179" uly="1536" lrx="1194" lry="1579"/>
          </surface>
          <surface xml:id="surface-2" n="2" ulx="0" uly="0" lrx="1296" lry="1728">
             <graphic xml:id="graphic-2" target="../img/02.jpg" width="1296" height="1728"/>
+            <zone xml:id="staff-zone-2-1" type="staff" ulx="176" uly="137" lrx="1206" lry="176"/>
+            <zone xml:id="staff-zone-2-2" type="staff" ulx="176" uly="261" lrx="1205" lry="301"/>
+            <zone xml:id="staff-zone-2-3" type="staff" ulx="176" uly="378" lrx="1199" lry="417"/>
+            <zone xml:id="staff-zone-2-4" type="staff" ulx="179" uly="530" lrx="1200" lry="567"/>
+            <zone xml:id="staff-zone-2-5" type="staff" ulx="171" uly="654" lrx="1200" lry="691"/>
+            <zone xml:id="staff-zone-2-6" type="staff" ulx="183" uly="814" lrx="1200" lry="855"/>
+            <zone xml:id="staff-zone-2-7" type="staff" ulx="180" uly="931" lrx="1199" lry="976"/>
+            <zone xml:id="staff-zone-2-8" type="staff" ulx="176" uly="1160" lrx="1204" lry="1200"/>
+            <zone xml:id="staff-zone-2-9" type="staff" ulx="178" uly="1298" lrx="1206" lry="1351"/>
+            <zone xml:id="staff-zone-2-10" type="staff" ulx="175" uly="1426" lrx="1200" lry="1475"/>
+            <zone xml:id="staff-zone-2-11" type="staff" ulx="176" uly="1543" lrx="1199" lry="1587"/>
          </surface>
       </facsimile>
       <body xml:id="body-1">
@@ -68,6 +93,8 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="section-1">
+               <pb xml:id="pb-1" n="1" facs="#surface-1"/>
+               <pb xml:id="pb-2" n="2" facs="#surface-2"/>
                </section>
             </score>
          </mdiv>
